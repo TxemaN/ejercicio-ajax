@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 .flexContainer {
    display: flex;
    flex-wrap: wrap;
@@ -18,7 +23,7 @@
 }
 
 .flexContainer>* {
-   width: calc(40% - 15px);
+   width: calc(45% - 15px);
 
 }
 .introducirNumeros>* {
@@ -28,5 +33,6 @@
 
 .box{
    
-   background-color: blue;
+   background-color: rgb(148, 148, 197);
+   border: 2px, black;
    }
